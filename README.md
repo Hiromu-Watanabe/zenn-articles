@@ -15,3 +15,29 @@ GitHub で Zenn 記事を管理することに関連する公式記事
 - [GitHub リポジトリで Zenn のコンテンツを管理する](https://zenn.dev/zenn/articles/connect-to-github)
 
 - [Zenn の Markdown 記法一覧](https://zenn.dev/zenn/articles/markdown-guide)
+
+<br>
+
+### コマンド
+
+👇 新しい記事を作成する
+
+```shell
+$ zenn new:article
+
+# オプション付
+$ npx zenn new:article --slug 記事のスラッグ --title タイトル --type idea --emoji ✨
+# slug はa-z0-9、ハイフン-、アンダースコア_の 12〜50 字の組み合わせにする必要がある
+```
+
+👇 新しい本を作成する
+
+```shell
+$ zenn new:book
+```
+
+👇 投稿をプレビューする
+
+```shell
+$ zenn preview
+```
